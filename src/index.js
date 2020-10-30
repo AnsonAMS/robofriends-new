@@ -7,7 +7,14 @@ import 'tachyons';
 // import registerServiceWorker from './registerServiceWorker';
 
 
-ReactDOM.render(<Card />, document.getElementById('root'))
+ReactDOM.render(
+
+                <div>
+                  <Card />
+                  <Card />
+                  <Card />
+                  </div>
+, document.getElementById('root'))
 
 // registerServiceWorker();
 
