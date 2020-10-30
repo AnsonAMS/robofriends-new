@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Hello from './Hello.js';
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';
 // import registerServiceWorker from './registerServiceWorker';
 
 
-ReactDOM.render(<Hello />, document.getElementById('root'))
+ReactDOM.render(<Hello greeting={'Hello' + 'React Ninja'}/>, document.getElementById('root'))
 
 // registerServiceWorker();
 
